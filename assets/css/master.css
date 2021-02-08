@@ -5,12 +5,23 @@
   border: 1px solid black;
   }
 
-.col-1 {
+[class^="col-"] {
   position: relative;
 }
-.col-1>span{
+[class^="col-"]>span{
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.nested {
+  border: 6px solid #FFC0CB;
+  background-color: #F07F80;
+}
+.br {
+  border-right: 2px solid #fff;
+}
+.bn {
+  border-left: none;
 }
