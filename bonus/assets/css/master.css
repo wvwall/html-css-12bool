@@ -1,0 +1,18 @@
+
+[class^="col-"] {
+  height: 100px;
+  border: 1px solid black;
+  }
+
+[class^="col-"] {
+  position: relative;
+}
+.container {
+  background: black;
+}
+.white {
+  background-color: #fff;
+}
+.gold {
+  background-color: gold;
+}
