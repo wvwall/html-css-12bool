@@ -1,0 +1,16 @@
+
+[class^="col-"] {
+  background-color: #FFC0CB;
+  height: 200px;
+  border: 1px solid black;
+  }
+
+.col-1 {
+  position: relative;
+}
+.col-1>span{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
