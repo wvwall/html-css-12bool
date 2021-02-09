@@ -18,11 +18,11 @@
 
 .nested {
   border: 6px solid #FFC0CB;
+  height: 190px;
+}
+
+.bg_nested {
+  height: 185px;
   background-color: #F07F80;
-}
-.br {
-  border-right: 2px solid #fff;
-}
-.bn {
-  border-left: none;
+  border: 1px solid #fff;
 }
